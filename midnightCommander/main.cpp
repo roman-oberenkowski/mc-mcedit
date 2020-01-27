@@ -1,7 +1,7 @@
 ﻿#include <curses.h>
 #include "midnightCommander.h"
 #include "./../src/MceditBackend.h"
-#include "../src/TestTool.h"
+
 
 using namespace std;
 
@@ -77,7 +77,6 @@ using namespace std;
 
 int main()
 {
-	//TestTool* tool = new TestTool();
 	midnightCommander* tool = new midnightCommander();
 	BaseBackend* backend = new MceditBackend(tool);
 	//all
