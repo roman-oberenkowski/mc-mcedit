@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="midnightCommander">
+      <UniqueIdentifier>{cbe097a5-c485-4212-9db2-6878657ebdb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{289fc6aa-6599-4d10-8c3c-045b589478fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mcedit">
+      <UniqueIdentifier>{a70f0873-edea-4d50-85b2-d9c521ae29aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\midnightCommander\lista.h">
+      <Filter>midnightCommander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\midnightCommander\midnightCommander.h">
+      <Filter>midnightCommander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BaseBackend.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BaseTool.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TestTool.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AlertMode.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bind.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ClickHandler.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\colors.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HelpMode.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Input.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ItemPosition.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Key.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KeyboardKey.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\margins.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MceditBackend.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Menu.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MenuData.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MenuPositioner.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Mode.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MouseKey.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NormalMode.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\OptionItem.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ParamMode.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ParsedBind.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResizeKey.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Terminal.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TooSmallMode.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TopItem.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Window.h">
+      <Filter>mcedit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\midnightCommander\okienko.h">
+      <Filter>midnightCommander</Filter>
+    </ClInclude>
+    <ClInclude Include="..\midnightCommander\midnightCommanderDefines.h">
+      <Filter>midnightCommander</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\midnightCommander\lista.cpp">
+      <Filter>midnightCommander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\midnightCommander\midnightCommander.cpp">
+      <Filter>midnightCommander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\midnightCommander\okienko.cpp">
+      <Filter>midnightCommander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\midnightCommander\main.cpp">
+      <Filter>midnightCommander</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TestTool.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Window.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AlertMode.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bind.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClickHandler.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HelpMode.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Input.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KeyboardKey.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MceditBackend.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Menu.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MenuData.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MenuPositioner.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MouseKey.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NormalMode.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\OptionItem.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParamMode.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParsedBind.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResizeKey.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Terminal.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TooSmallMode.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TopItem.cpp">
+      <Filter>mcedit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mainxxx.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\mcedit.vcxproj" />
+    <None Include="..\src\mcedit.vcxproj.filters" />
+    <None Include="..\src\mcedit.vcxproj.user" />
+  </ItemGroup>
+</Project>
