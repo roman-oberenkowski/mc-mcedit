@@ -18,7 +18,7 @@ My task was to create file manager inspired by iconic Midnight Commander which c
 - PDCURSES (integrated into project, but only in x86 configuration)
 
 # Credits
-All credits for 'mcedit inspired backend' that is use here go to:
+All credits for 'mcedit inspired backend' that is used here go to:
 https://github.com/Guslarz/mcedit
 
 
